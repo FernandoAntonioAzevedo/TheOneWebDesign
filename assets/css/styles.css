@@ -102,3 +102,18 @@ nav {
     transition: transform .5s;
     z-index: -1;
 }
+
+.nav__links.open {
+    transform: translateY(100%);
+}
+
+.nav__links a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--white);
+    white-space: nowrap;
+}
+
+.nav__btns {
+    display: none;
+}
