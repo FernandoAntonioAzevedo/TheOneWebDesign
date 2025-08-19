@@ -53,3 +53,24 @@ ScrollReveal().reveal(".about__list li", {
     delay: 500,
     interval: 500,
 });
+
+ScrollReveal().reveal(".portfolio__container .section__header", {
+    ...scrollRevealOption,    
+});
+
+ScrollReveal().reveal(".portfolio__container .section__description", {
+    ...scrollRevealOption,
+    delay: 500,    
+});
+
+ScrollReveal().reveal(".portfolio__image", {
+    ...scrollRevealOption,
+    origin: "right",
+    delay: 1000,    
+});
+
+ScrollReveal().reveal(".portfolio__list li", {
+    ...scrollRevealOption,
+    interval: 500,
+    delay: 1500,    
+});

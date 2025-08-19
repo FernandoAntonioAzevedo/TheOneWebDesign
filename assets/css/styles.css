@@ -346,6 +346,103 @@ nav {
     text-align: left;
 }
 
+/* Portfolio */
+
+.portfolio {
+    background-color: var(--extra-light);
+    overflow: hidden;
+}
+
+.portfolio__header {
+    margin-bottom: 4rem;
+    display: grid;
+    gap: 2rem;
+}
+
+.portfolio__image {
+    position: relative;
+    isolation: isolate;
+}
+
+.portfolio__image__content {
+    position: absolute;
+    top: 0;
+    right: 2rem;
+    transform: translateY(-50%);
+    padding-block: 1.5rem;
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-color);
+    border-radius: .25rem;
+    z-index: 1;
+}
+
+.portfolio__image__content div {
+    padding-inline: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.portfolio__image__content div:nth-child(1) {
+    border-right: 1px solid var(--extra-light);
+}
+
+.portfolio__image img {
+    border-radius: 0.5rem;
+}
+
+.portfolio__image__content h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-dark);
+}
+
+.portfolio__image__content p {
+    font-size: 0.9rem;
+    color: var(--extra-light);
+}
+
+.portfolio__content {
+    display: grid;
+    gap: 2rem;
+}
+
+.portfolio__list {
+    display: grid;
+    gap: 2rem;
+}
+
+.portfolio__list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.portfolio__list li span {
+    width: 5rem;
+    aspect-ratio: 1;
+    display: grid;
+    place-content: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--white);
+    background-color: var(--primary-color);
+    border-radius: 0.25rem;
+}
+
+.portfolio__list h4 {
+    margin-bottom: .5rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--text-dark);
+}
+
+.portfolio__list .section__description {
+    text-align: left;
+}
+
+
 @media (width > 540px) {
     .service__grid {
         grid-template-columns: repeat(2, 1fr);
@@ -427,6 +524,23 @@ nav {
     .about__container {
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
+    }
+
+    .portfolio__header {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .portfolio__header :is(.section__header, .section__description) {
+        text-align: left;
+    }
+
+    .portfolio__content {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    .portfolio__image {
+        grid-area: 1/2/2/3;
     }
 }
 
