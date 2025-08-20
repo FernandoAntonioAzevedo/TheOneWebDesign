@@ -39,9 +39,15 @@
                 <a><img src="assets/img/theoneBranca.logo.png" alt="Logo the one branca" class="logo-white">
                 </a>
             </div>
+            <!-- Language Selector -->
+            <div class="language-switcher">
+                <button data-lang="pt">PT</button>
+                <button data-lang="en" class="active">EN</button>
+            </div>
             <div class="nav__menu__btn" id="menu-btn">
                 <i class="ri-menu-add-line"></i>
             </div>
+            
         </div>
         <ul class="nav__links" id="nav-links">
             <li><a href="#home">Home</a></li>
@@ -53,10 +59,12 @@
         <div class="nav__btns">
             <button class="btn">Let's Talk Us</button>
         </div>
+        
     </nav>
+    
 
-    <header class="section__container header__container" id="home">
-        <div class="header__image">
+    <header class="section__container header__container" id="home">        
+        <div class="header__image">            
             <img src="assets/img/header.png" alt="header png">
         </div>
         <div class="header__content">
@@ -230,11 +238,129 @@
         </div>
     </section>
     <section class="section__container feedback__container" id="client">
-        <h2 class="section__header">
-            Happy Customer Feedback
-        </h2>
+        <h2 class="section__header">Happy Customer Feedback</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+
+                <!-- Slide 1 -->
+                <div class="swiper-slide">
+                    <div class="feedback__card">
+                        <p class="section__description">
+                            Working with The One Web Design was a game-changer for our online presence. Their
+                            creativity and attention to detail exceeded our expectations.                        
+                        </p>
+                        <div class="feedback__details">
+                            <div class="feedback__user">
+                                <img src="assets/img/feedback-1.jpg" alt="feedback">
+                                <div>
+                                   <h4>James Carter</h4>
+                                   <h5>CEO, TechNova Solutions</h5>
+                                </div>
+                            </div>
+                            <div class="feedback__rating">
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 2 -->
+                <div class="swiper-slide">
+                    <div class="feedback__card">
+                        <p class="section__description">
+                            The team at The One Web Design truly understands how to turn ideas innovation
+                            impactful digital experiences. Highly professional and reliable.                       
+                        </p>
+                        <div class="feedback__details">
+                            <div class="feedback__user">
+                                <img src="assets/img/feedback-2.jpg" alt="feedback">
+                                <div>
+                                   <h4>Sarah Mitchell</h4>
+                                   <h5>Marketing Director, Green Organics</h5>
+                                </div>
+                            </div>
+                            <div class="feedback__rating">
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="swiper-slide">
+                    <div class="feedback__card">
+                        <p class="section__description">
+                            From design to delivery, their process was seamless. Our new website looks stunning and 
+                            performs better than ever in all aspects.                       
+                        </p>
+                        <div class="feedback__details">
+                            <div class="feedback__user">
+                                <img src="assets/img/feedback-3.jpg" alt="feedback">
+                                <div>
+                                   <h4>Anita Roy</h4>
+                                   <h5>Founder, Roy Interiors</h5>
+                                </div>
+                            </div>
+                            <div class="feedback__rating">
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="swiper-slide">
+                    <div class="feedback__card">
+                        <p class="section__description">
+                            The One Web Design helped us reimagine our brand identity with fresh visuals
+                            and an effective marketing strategy. We loved the collaboration!                      
+                        </p>
+                        <div class="feedback__details">
+                            <div class="feedback__user">
+                                <img src="assets/img/feedback-4.jpg" alt="feedback">
+                                <div>
+                                   <h4>David Kim</h4>
+                                   <h5>Brand Manager, Urban Pulse</h5>
+                                </div>
+                            </div>
+                            <div class="feedback__rating">
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </div>
     </section>
-    
+    <section class="section__container subscribe__container" id="contact">
+        <div class="subscribe__content">
+            <h2 class="section__header">
+              Subscribe Newsletter Get Latest Updates and Dates  
+            </h2>
+            <form action="/">
+                <input type="text" placeholder="">
+            </form>
+        </div>
+    </section>
+
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
