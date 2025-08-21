@@ -695,8 +695,8 @@
     }
 
     /* Media Queries para responsividade */
-    /* Ajustes específicos para telas de até 342px */
-    @media (max-width: 375px) {
+    /* Ajustes específicos para telas de até 419px */
+    @media (max-width: 419px) {
         .section__header {
             font-size: 1.8rem;
             line-height: 2.2rem;
@@ -832,8 +832,8 @@
         }
     }
 
-    @media (width > 375px) {
-        /* Mantenha os estilos existentes para telas maiores que 342px */
+    @media (width > 419px) {
+        /* Mantenha os estilos existentes para telas maiores que 419px */
     }
 
     @media (width > 646px) {
