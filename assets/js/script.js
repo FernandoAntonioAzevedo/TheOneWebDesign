@@ -81,6 +81,16 @@ const swiper = new Swiper(".swiper", {
     loop: true,
 });
 
+// stop here
+ScrollReveal().reveal(".subscribe__content .section__header", {
+    ...scrollRevealOption,    
+});
+
+ScrollReveal().reveal(".subscribe__content form", {
+    ...scrollRevealOption,
+    delay: 500,    
+});
+
 // language Selector
 
 const translations = {
