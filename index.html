@@ -24,14 +24,18 @@
   <nav>
     <div class="nav__header">
       <div class="nav__logo">
-        <a><img src="assets/img/theone.logo.png" alt="logo the one padrão" class="logo-default"></a>
-        <a><img src="assets/img/theoneBranca.logo.png" alt="Logo the one branca" class="logo-white"></a>
+        <a href="/index.html"><img src="assets/img/theone.logo.png" alt="logo the one padrão" class="logo-default"></a>
+        <a href="/index.html"><img src="assets/img/theoneBranca.logo.png" alt="Logo the one branca" class="logo-white"></a>
       </div>
+
       <!-- Language Selector -->
+      <!--
       <div class="language-switcher">
         <button data-lang="pt">PT</button>
         <button data-lang="en" class="active">EN</button>
       </div>
+      -->
+
       <div class="nav__menu__btn" id="menu-btn">
         <i class="ri-menu-add-line"></i>
       </div>
@@ -39,12 +43,12 @@
     <ul class="nav__links" id="nav-links">
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About Us</a></li>
+      <li><a href="#services">Services</a></li>
       <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#client">Clients</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
     <div class="nav__btns">
-      <button class="btn">Start Your Project</button>
+      <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5541999416552" target="_blank"><button class="btn">Start Your Project</button></a>
     </div>
   </nav>
 
@@ -61,7 +65,9 @@
         stand out from the noise, and create meaningful connections with their audience worldwide.
       </p>
       <div class="header__btns">
+        <a href="#portfolio">
         <button class="btn">How It Works</button>
+        </a>
         <a href="#">
           <span><i class="ri-play-fill"></i></span>
           Watch Our Story
@@ -71,50 +77,52 @@
   </header>
 
   <!-- SERVICES -->
-  <section class="service">
+  <section class="service" id="services">
     <div class="section__container service__container">
       <h2 class="section__header">
         We Are The Creative Force Behind Bold Digital Brands
       </h2>            
       <div class="service__grid">
         <div class="service__card">
-          <div><i class="ri-pencil-ruler-2-line"></i></div>
-          <h4>Product Design</h4>
+          <div class="icon__service"><i class="ri-shopping-cart-line"></i></div>
+          <h4>E-commerce</h4>
           <p class="section__description">
-            Human-centered, market-driven. We design digital products that don’t just look great — 
-            they solve problems, spark engagement, and fuel business growth.
+            Optimized virtual stores to sell more! With an attractive design and an efficient shopping 
+            experience, I create e-commerce platforms that facilitate the customer journey and maximize sales.
           </p>
         </div>
 
         <div class="service__card">
-          <div><i class="ri-computer-line"></i></div>
+          <div class="icon__service"><i class="ri-computer-line"></i></div>
           <h4>Digital Marketing</h4>
           <p class="section__description">
-            Cut through the noise. Our data-powered strategies put your brand in front of the right people, 
-            at the right time — turning clicks into loyal customers.
+            Your communication should use a consistent narrative across all touchpoints with the audience. From the 
+            tone of voice to the choice of colors and visual elements, everything needs to reflect the essence of your brand.
           </p>
         </div>
 
         <div class="service__card">
-          <div><i class="ri-pages-line"></i></div>
+          <div class="icon__service"><i class="ri-pages-line"></i></div>
           <h4>Web Design</h4>
           <p class="section__description">
-            Sleek, responsive, unforgettable. We create websites that are more than visuals — 
-            they’re digital experiences designed to convert and impress.
+            We create modern, responsive web and mobile interfaces focused on usability. We ensure that every user interaction 
+            is intuitive and pleasant, providing a smooth navigation that converts.
           </p>
         </div>
 
         <div class="service__card">
-          <div><i class="ri-layout-2-line"></i></div>
-          <h4>Branding & Creative</h4>
+          <div class="icon__service"><i class="ri-layout-2-line"></i></div>
+          <h4>Branding & Reebranding</h4>
           <p class="section__description">
-            Your brand is your story. We shape bold identities and unique layouts that cut through 
-            the clutter and make people remember you.
+            Your logo from absolute zero or we completely rebrand your brand; rebranding can be a powerful strategy to keep your 
+            brand updated and relevant.
           </p>
         </div>
       </div>
       <div class="service__btn">
-        <button class="btn">Explore All Services</button>
+        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5541999416552" target="_blank">
+        <button class="btn">Start My Project Now </button>
+        </a>
       </div>
     </div>
   </section>
@@ -126,7 +134,7 @@
     </div>
     <div class="about__content">
       <h2 class="section__header">
-        We Don’t Just Follow Trends — We Create Them
+        We don't follow trends. We are the ones who create them.
       </h2>
       <ul class="about__list">
         <li>
@@ -145,8 +153,8 @@
           <div>
             <h4>Our Vision</h4>
             <p class="section__description">
-              To become the go-to creative partner for businesses worldwide, 
-              shaping the future with innovation and design excellence.
+              To become the reference creative partner for companies around 
+              the world, shaping the future with Brazilian boldness and design excellence.
             </p>
           </div>
         </li>
@@ -170,7 +178,7 @@
     <div class="section__container portfolio__container">
       <div class="portfolio__header">
         <h2 class="section__header">
-          Creative Solutions. Proven Impact.
+          Brazilian boldness tailored for your business
         </h2>
         <p class="section__description">
           At <strong>The One Web Design</strong>, we blend years of experience with bold innovation to deliver 
@@ -359,17 +367,17 @@
         <ul class="footer__socials">
           <li><a href="#"><i class="ri-facebook-fill"></i></a></li>
           <li><a href="#"><i class="ri-linkedin-fill"></i></a></li>
-          <li><a href="#"><i class="ri-instagram-fill"></i></a></li>
+          <li><a href="https://instagram.com/theonewebdesign"><i class="ri-instagram-fill"></i></a></li>
           <li><a href="#"><i class="ri-tiktok-fill"></i></a></li>
         </ul>
       </div>
       <div class="footer__col">
         <h4>Quick Links</h4>
         <ul class="footer__links">
-          <li><a href="">About Agency</a></li>
+          <li><a href="#about">About Agency</a></li>
           <li><a href="">News & Insights</a></li>
           <li><a href="">Terms of Service</a></li>
-          <li><a href="">Our Services</a></li>
+          <li><a href="#services">Our Services</a></li>
           <li><a href="">Careers</a></li>                    
         </ul>
       </div>
@@ -386,7 +394,7 @@
       <div class="footer__col">
         <h4>Contact Us</h4>
         <ul class="footer__links">
-          <li><a href="#"><span><i class="ri-whatsapp-line"></i></span> +55 (41) 99941-6552</a></li>
+          <li><a href="https://api.whatsapp.com/send?1=pt_BR&phone=5541999416552" target="_blank"><span><i class="ri-whatsapp-line"></i></span> +55 (41) 99941-6552</a></li>
           <li><a href="#"><span><i class="ri-mail-line"></i></span> webdesigntheone@gmail.com</a></li>
           <li><a href="#"><span><i class="ri-map-pin-2-fill"></i></span> 99 Edemar Ernsen - Brazil</a></li>
         </ul>
